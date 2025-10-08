@@ -69,3 +69,10 @@ All plots will be generated in the corresponding subfolder within the [`figures`
 ## Results
 The results we obtained from running the experiments on our machine can be found in the folder
 [`out/`](out).
+
+## Additional FSI simulation
+In addition to the experiments described above, the folder [`simulation`](simulation) contains
+an additional simulation case that was performed with a more recent version of TrixiParticles.jl and Julia v1.11.7.
+To ensure full reproducibility and compatibility with this newer setup, a separate Julia project environment has been created inside the [`simulation`](simulation) directory.
+
+Please refer to the dedicated README.md file in [`simulation`](simulation) for specific instructions on how to instantiate the environment and run the simulation.
