@@ -2,18 +2,22 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15730554.svg)](https://doi.org/10.5281/zenodo.15730554)
+[![doi:10.1016/j.cpc.2025.109898](https://img.shields.io/badge/Paper_DOI-10.1016/j.cpc.2025.109898-blue)](https://doi.org/10.1016/j.cpc.2025.109898)
+[![arXiv:2506.21206](https://img.shields.io/badge/arXiv-2506.21206-yellow)](https://arxiv.org/abs/2506.21206)
 
 This repository contains information and code to reproduce the results presented in the
 article
 ```bibtex
-@misc{neher2025robustefficientpreprocessingtechniques,
-      title={Robust and efficient pre-processing techniques for particle-based methods including dynamic boundary generation},
-      author={Niklas S. Neher and Erik Faulhaber and Sven Berger and Christian Weißenfels and Gregor J. Gassner and Michael Schlottke-Lakemper},
-      year={2025},
-      eprint={2506.21206},
-      archivePrefix={arXiv},
-      primaryClass={math.NA},
-      url={https://arxiv.org/abs/2506.21206},
+@Article{neher2026robust,
+  author    = {Neher, Niklas S. and Faulhaber, Erik and Berger, Sven and Weißenfels,
+               Christian and Gassner, Gregor J. and Schlottke-Lakemper, Michael},
+  journal   = {Computer Physics Communications},
+  title     = {Robust and efficient pre-processing techniques for particle-based
+               methods including dynamic boundary generation},
+  year      = {2026},
+  pages     = {109898},
+  volume    = {318},
+  doi       = {10.1016/j.cpc.2025.109898}
 }
 ```
 
@@ -22,8 +26,10 @@ use the implementations provided here, please **also** cite this repository as
 ```bibtex
 @misc{Neher2025reproducibility,
   title={Reproducibility repository for
-         "{R}obust and efficient pre-processing techniques for particle-based methods including dynamic boundary generation"},
-  author={Neher, Niklas S. and Faulhaber, Erik and Berger, Sven and Weißenfels Christian and Gassner, Gregor J. and Schlottke-Lakemper, Michael},
+         "{R}obust and efficient pre-processing techniques for particle-based
+         methods including dynamic boundary generation"},
+  author={Neher, Niklas S. and Faulhaber, Erik and Berger, Sven
+          and Weißenfels Christian and Gassner, Gregor J. and Schlottke-Lakemper, Michael},
   year= {2025},
   howpublished={\url{https://github.com/trixi-framework/paper-2025-particle-based_preprocessing}},
   doi={10.5281/zenodo.15730554}
